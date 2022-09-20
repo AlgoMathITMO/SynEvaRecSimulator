@@ -20,5 +20,5 @@ We use two types of datasets in the study:
 The validation data can be generated in our code using the "get_validation_data" function with default parameters. This function is located on
   
 ```
-AutoRec/load_data
+./AutoRec/load_data
 ```

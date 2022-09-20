@@ -17,4 +17,8 @@ We use two types of datasets in the study:
    Each user and each item has three attributes, all of them are numeric.
  - The real-world data. The dataset is a small one containing data about Restaurants and Their Clients (available <a href='https://www.kaggle.com/uciml/restaurant-data-with-consumer-ratings'>here</a> ).
 
-All of the synthetic data can be generated in our code using the specified .py scripts.
+The validation data can be generated in our code using the "get_validation_data" function with default parameters. This function is located on
+  
+```
+AutoRec/load_data
+```

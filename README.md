@@ -10,3 +10,10 @@ Nevertheless, there exist the problem of simulation validation and of the incons
 In this paper, using and extending the recently developed SynEvaRec simulator we propose a validation procedure for simulators of this type and study the consistency of RS performance ranking on response matrices of different sparsity. 
   
 It is observed in our experiments that (i) the procedure is an effective tool to see what one may expect from the simulation on real-world data, (ii) the consistency  of RS performance ranking depend on the data considered and even the sample size used for RS training.
+
+## Data
+We use two types of datasets in the study:
+ - Validation data. The Validation dataset contains 1,000 users and 100 items (both with attributes), and 100,000 user-item responses (i.e. the data is complete). Each user and each item has three attributes, all of them are numeric.
+ - The real-world data. The dataset is a small one containing data about Restaurants and Their Clients (available on <a href='https://www.kaggle.com/uciml/restaurant-data-with-consumer-ratings'>acMark</a> ).
+
+All of the synthetic data can be generated in our code using the specified .py scripts.

@@ -22,3 +22,7 @@ The validation data can be generated in our code using the "get_validation_data"
 ```
 ./AutoRec/load_data
 ```
+## Experiments
+All experiments are available in their respective folders:
+   - For Validation dataset in folder ./notebooks/validation/
+   - For Restaurants dataset - ./notebooks/rests/

@@ -36,3 +36,5 @@ For Restaurants dataset:
 ./notebooks/rests/RestSurfaceDense.ipynb
 ./notebooks/rests/RestSurfaceSparse.ipynb
 ```
+  
+Each of the notebooks (in order) contains an experiment with quality hierarchy, quality surfaces for dense data, quality surfaces for sparse data for the corresponding dataset.

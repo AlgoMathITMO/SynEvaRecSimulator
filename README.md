@@ -17,19 +17,22 @@ We use two types of datasets in the study:
    Each user and each item has three attributes, all of them are numeric.
  - The real-world data. The dataset is a small one containing data about Restaurants and Their Clients (available <a href='https://www.kaggle.com/uciml/restaurant-data-with-consumer-ratings'>here</a> ).
 
-The validation data can be generated in our code using the "get_validation_data" function with default parameters. This function is located on
-  
-```
-./AutoRec/load_data
-```
+Validation data is generated during experimentation with default settings.
+
 ## Experiments
+
+Experiments are a set of Jupyter notebooks.
 All experiments are available in their respective folders:
   
 For Validation dataset:
 ```
-./notebooks/validation/
+./notebooks/validation/ValidationPerformance.ipynb
+./notebooks/validation/ValidationSurfaceDense.ipynb
+./notebooks/validation/ValidationSurfaceSparce.ipynb
 ```
 For Restaurants dataset:
 ```
-./notebooks/rests/
+./notebooks/rests/RestPerformance.ipynb
+./notebooks/rests/RestSurfaceDense.ipynb
+./notebooks/rests/RestSurfaceSparse.ipynb
 ```

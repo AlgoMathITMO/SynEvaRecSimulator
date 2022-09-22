@@ -11,6 +11,16 @@ In this paper, using and extending the recently developed SynEvaRec simulator we
   
 It is observed in our experiments that (i) the procedure is an effective tool to see what one may expect from the simulation on real-world data, (ii) the consistency  of RS performance ranking depend on the data considered and even the sample size used for RS training.
 
+## Structure
+The repository has the following folders:
+  - data. Contains the real-world dataset. (see Data section)
+  - data_generators. Contains synthetic data generators
+  - modules. Contains sourse code of the models used duting experiments.
+  - notebooks. Contains experiments (see Experiments section).
+  - synthetic_data. Contains synthetic datasets.
+  
+ Besides this, there are two Jupyter notebooks with work example of the models used duting experiments.
+
 ## Data
 We use two types of datasets in the study:
  - Validation data. The Validation dataset contains 1,000 users and 100 items (both with attributes), and 100,000 user-item responses (i.e. the data is complete). 

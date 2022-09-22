@@ -19,7 +19,7 @@ The repository has the following folders:
   - notebooks. Contains experiments (see Experiments section).
   - synthetic_data. Contains synthetic datasets.
   
- Besides this, there are two Jupyter notebooks with work example of the models used duting experiments.
+ Besides this, there are two Jupyter notebooks with examples of the models used duting experiments (AutoRec.ipynb, CollobarativeModel.ipynb).
 
 ## Data
 We use two types of datasets in the study:
